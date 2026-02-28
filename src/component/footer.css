@@ -1,0 +1,180 @@
+/* ===== FOOTER MAIN ===== */
+.site-footer {
+    background: #1f1f1f;
+    color: #ffffff;
+    padding-top: 50px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Container */
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 40px;
+    padding: 0 40px 50px;
+  }
+  
+  /* Sections */
+  .footer-section h3,
+  .footer-section h4 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #ff6b6b;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+  }
+  
+  /* Links */
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: #ff6b6b;
+    padding-left: 5px;
+  }
+  
+  /* Social Icons */
+  .footer-social {
+    margin-top: 15px;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px 12px;
+    background: #333;
+    border-radius: 50px;
+    font-size: 12px;
+    transition: 0.3s;
+  }
+  
+  .social-icon:hover {
+    background: #ff6b6b;
+    color: white;
+    transform: scale(1.1);
+  }
+  
+  /* Address Links */
+  address a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  address a:hover {
+    color: #ff6b6b;
+  }
+  
+  /* Newsletter */
+  .newsletter {
+    margin-top: 20px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .newsletter-form input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .newsletter-form button {
+    padding: 8px 15px;
+    border: none;
+    background: #ff6b6b;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    transition: 0.3s;
+  }
+  
+  .newsletter-form button:hover {
+    background: #ff4757;
+  }
+  
+  /* ===== Footer Bottom ===== */
+  .footer-bottom {
+    background: #111;
+    padding: 20px 40px;
+    border-top: 1px solid #333;
+  }
+  
+  .footer-bottom-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .footer-legal a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+  }
+  
+  .footer-legal a:hover {
+    color: #ff6b6b;
+  }
+  
+  /* Payment */
+  .payment-methods {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .payment-icons span {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  
+  /* ===== Responsive ===== */
+  @media (max-width: 768px) {
+    .footer-bottom-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .newsletter-form {
+      flex-direction: column;
+    }
+  
+    .newsletter-form input {
+      border-radius: 5px;
+      margin-bottom: 8px;
+    }
+  
+    .newsletter-form button {
+      border-radius: 5px;
+    }
+  }
